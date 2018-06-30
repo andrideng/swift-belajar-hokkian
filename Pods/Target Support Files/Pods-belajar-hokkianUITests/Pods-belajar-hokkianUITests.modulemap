@@ -1,0 +1,6 @@
+framework module Pods_belajar_hokkianUITests {
+  umbrella header "Pods-belajar-hokkianUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

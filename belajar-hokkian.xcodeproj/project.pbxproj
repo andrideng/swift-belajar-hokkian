@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D924140224EC3B3C453197 /* Pods_belajar_hokkianUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2B5C34EBABEA61BCBA996 /* Pods_belajar_hokkianUITests.framework */; };
+		A11CC1928523AAACF51D28FA /* Pods_belajar_hokkianTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71B82EC129ABAFEB8F3120C /* Pods_belajar_hokkianTests.framework */; };
+		BA69678E3D6F2842D21F77FF /* Pods_belajar_hokkian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94D6E17277B524A775B579B /* Pods_belajar_hokkian.framework */; };
+		CC0C04641F0F8F6100910F19 /* MainController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0C04631F0F8F6100910F19 /* MainController+handlers.swift */; };
+		CC0C04671F0F901900910F19 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0C04661F0F901900910F19 /* LoginController.swift */; };
+		CC0C046A1F0F91ED00910F19 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0C04691F0F91ED00910F19 /* LoginController+handlers.swift */; };
+		CC23C61D1F275B1C005050E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC23C61C1F275B1C005050E7 /* Images.xcassets */; };
+		CC48D8771F0F74BD0031039D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48D8761F0F74BD0031039D /* AppDelegate.swift */; };
+		CC48D8791F0F74BD0031039D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48D8781F0F74BD0031039D /* MainController.swift */; };
+		CC48D87C1F0F74BD0031039D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48D87A1F0F74BD0031039D /* Main.storyboard */; };
+		CC48D87E1F0F74BD0031039D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC48D87D1F0F74BD0031039D /* Assets.xcassets */; };
+		CC48D8811F0F74BD0031039D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48D87F1F0F74BD0031039D /* LaunchScreen.storyboard */; };
+		CC48D88C1F0F74BD0031039D /* belajar_hokkianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48D88B1F0F74BD0031039D /* belajar_hokkianTests.swift */; };
+		CC48D8971F0F74BD0031039D /* belajar_hokkianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48D8961F0F74BD0031039D /* belajar_hokkianUITests.swift */; };
+		CC48D8A51F0F74EA0031039D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC48D8A41F0F74EA0031039D /* GoogleService-Info.plist */; };
+		CC575D221F13793E0085C6EA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC575D211F13793E0085C6EA /* Users.swift */; };
+		CC575D241F139BC10085C6EA /* NewItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC575D231F139BC10085C6EA /* NewItemController.swift */; };
+		CC575D261F13B2540085C6EA /* DictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC575D251F13B2540085C6EA /* DictView.swift */; };
+		CCBCCFBC1F26F62200FEAD73 /* Kamus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBCCFBB1F26F62200FEAD73 /* Kamus.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC48D8881F0F74BD0031039D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC48D86B1F0F74BD0031039D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC48D8721F0F74BD0031039D;
+			remoteInfo = "belajar-hokkian";
+		};
+		CC48D8931F0F74BD0031039D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC48D86B1F0F74BD0031039D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC48D8721F0F74BD0031039D;
+			remoteInfo = "belajar-hokkian";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ADA99BB37810E60F407299F /* Pods-belajar-hokkianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar-hokkianTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-belajar-hokkianTests/Pods-belajar-hokkianTests.release.xcconfig"; sourceTree = "<group>"; };
+		45CDCC3BBF20856FEC09DD7D /* Pods-belajar-hokkianUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar-hokkianUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-belajar-hokkianUITests/Pods-belajar-hokkianUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86026F5B0EBA6693C9299719 /* Pods-belajar-hokkian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar-hokkian.release.xcconfig"; path = "Pods/Target Support Files/Pods-belajar-hokkian/Pods-belajar-hokkian.release.xcconfig"; sourceTree = "<group>"; };
+		8D12F79B9C0BE4E74638759C /* Pods-belajar-hokkianUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar-hokkianUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-belajar-hokkianUITests/Pods-belajar-hokkianUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC2B5C34EBABEA61BCBA996 /* Pods_belajar_hokkianUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_belajar_hokkianUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C738899A8203661ED84327 /* Pods-belajar-hokkian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar-hokkian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-belajar-hokkian/Pods-belajar-hokkian.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7602789AB3DDA2A366FE0A /* Pods-belajar-hokkianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar-hokkianTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-belajar-hokkianTests/Pods-belajar-hokkianTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C71B82EC129ABAFEB8F3120C /* Pods_belajar_hokkianTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_belajar_hokkianTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94D6E17277B524A775B579B /* Pods_belajar_hokkian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_belajar_hokkian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0C04631F0F8F6100910F19 /* MainController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainController+handlers.swift"; sourceTree = "<group>"; };
+		CC0C04661F0F901900910F19 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CC0C04691F0F91ED00910F19 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		CC23C61C1F275B1C005050E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC48D8731F0F74BD0031039D /* belajar-hokkian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "belajar-hokkian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48D8761F0F74BD0031039D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC48D8781F0F74BD0031039D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		CC48D87B1F0F74BD0031039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC48D87D1F0F74BD0031039D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC48D8801F0F74BD0031039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC48D8821F0F74BD0031039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC48D8871F0F74BD0031039D /* belajar-hokkianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "belajar-hokkianTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48D88B1F0F74BD0031039D /* belajar_hokkianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belajar_hokkianTests.swift; sourceTree = "<group>"; };
+		CC48D88D1F0F74BD0031039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC48D8921F0F74BD0031039D /* belajar-hokkianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "belajar-hokkianUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48D8961F0F74BD0031039D /* belajar_hokkianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belajar_hokkianUITests.swift; sourceTree = "<group>"; };
+		CC48D8981F0F74BD0031039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC48D8A41F0F74EA0031039D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC575D211F13793E0085C6EA /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		CC575D231F139BC10085C6EA /* NewItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemController.swift; sourceTree = "<group>"; };
+		CC575D251F13B2540085C6EA /* DictView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictView.swift; sourceTree = "<group>"; };
+		CCBCCFBB1F26F62200FEAD73 /* Kamus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kamus.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC48D8701F0F74BD0031039D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA69678E3D6F2842D21F77FF /* Pods_belajar_hokkian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48D8841F0F74BD0031039D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11CC1928523AAACF51D28FA /* Pods_belajar_hokkianTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48D88F1F0F74BD0031039D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D924140224EC3B3C453197 /* Pods_belajar_hokkianUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2094C48E60D4D1E57BC19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94D6E17277B524A775B579B /* Pods_belajar_hokkian.framework */,
+				C71B82EC129ABAFEB8F3120C /* Pods_belajar_hokkianTests.framework */,
+				8DC2B5C34EBABEA61BCBA996 /* Pods_belajar_hokkianUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0C04621F0F8F2F00910F19 /* handlers */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C04631F0F8F6100910F19 /* MainController+handlers.swift */,
+				CC0C04691F0F91ED00910F19 /* LoginController+handlers.swift */,
+			);
+			name = handlers;
+			sourceTree = "<group>";
+		};
+		CC0C04651F0F8FDD00910F19 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC48D8781F0F74BD0031039D /* MainController.swift */,
+				CC0C04661F0F901900910F19 /* LoginController.swift */,
+				CC575D231F139BC10085C6EA /* NewItemController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		CC48D86A1F0F74BD0031039D = {
+			isa = PBXGroup;
+			children = (
+				CC48D8751F0F74BD0031039D /* belajar-hokkian */,
+				CC48D88A1F0F74BD0031039D /* belajar-hokkianTests */,
+				CC48D8951F0F74BD0031039D /* belajar-hokkianUITests */,
+				CC48D8741F0F74BD0031039D /* Products */,
+				D1D8A761B8C5FE7699721895 /* Pods */,
+				2E2094C48E60D4D1E57BC19A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC48D8741F0F74BD0031039D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC48D8731F0F74BD0031039D /* belajar-hokkian.app */,
+				CC48D8871F0F74BD0031039D /* belajar-hokkianTests.xctest */,
+				CC48D8921F0F74BD0031039D /* belajar-hokkianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC48D8751F0F74BD0031039D /* belajar-hokkian */ = {
+			isa = PBXGroup;
+			children = (
+				CC575D201F13792E0085C6EA /* Model */,
+				CC0C04651F0F8FDD00910F19 /* controller */,
+				CC0C04621F0F8F2F00910F19 /* handlers */,
+				CC48D8A41F0F74EA0031039D /* GoogleService-Info.plist */,
+				CC48D8761F0F74BD0031039D /* AppDelegate.swift */,
+				CC48D87A1F0F74BD0031039D /* Main.storyboard */,
+				CC48D87D1F0F74BD0031039D /* Assets.xcassets */,
+				CC48D87F1F0F74BD0031039D /* LaunchScreen.storyboard */,
+				CC48D8821F0F74BD0031039D /* Info.plist */,
+				CC575D251F13B2540085C6EA /* DictView.swift */,
+				CC23C61C1F275B1C005050E7 /* Images.xcassets */,
+			);
+			path = "belajar-hokkian";
+			sourceTree = "<group>";
+		};
+		CC48D88A1F0F74BD0031039D /* belajar-hokkianTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC48D88B1F0F74BD0031039D /* belajar_hokkianTests.swift */,
+				CC48D88D1F0F74BD0031039D /* Info.plist */,
+			);
+			path = "belajar-hokkianTests";
+			sourceTree = "<group>";
+		};
+		CC48D8951F0F74BD0031039D /* belajar-hokkianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC48D8961F0F74BD0031039D /* belajar_hokkianUITests.swift */,
+				CC48D8981F0F74BD0031039D /* Info.plist */,
+			);
+			path = "belajar-hokkianUITests";
+			sourceTree = "<group>";
+		};
+		CC575D201F13792E0085C6EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC575D211F13793E0085C6EA /* Users.swift */,
+				CCBCCFBB1F26F62200FEAD73 /* Kamus.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D1D8A761B8C5FE7699721895 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0C738899A8203661ED84327 /* Pods-belajar-hokkian.debug.xcconfig */,
+				86026F5B0EBA6693C9299719 /* Pods-belajar-hokkian.release.xcconfig */,
+				BA7602789AB3DDA2A366FE0A /* Pods-belajar-hokkianTests.debug.xcconfig */,
+				2ADA99BB37810E60F407299F /* Pods-belajar-hokkianTests.release.xcconfig */,
+				8D12F79B9C0BE4E74638759C /* Pods-belajar-hokkianUITests.debug.xcconfig */,
+				45CDCC3BBF20856FEC09DD7D /* Pods-belajar-hokkianUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC48D8721F0F74BD0031039D /* belajar-hokkian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48D89B1F0F74BD0031039D /* Build configuration list for PBXNativeTarget "belajar-hokkian" */;
+			buildPhases = (
+				0030F70BB819E952CEE3D9D6 /* [CP] Check Pods Manifest.lock */,
+				CC48D86F1F0F74BD0031039D /* Sources */,
+				CC48D8701F0F74BD0031039D /* Frameworks */,
+				CC48D8711F0F74BD0031039D /* Resources */,
+				06A068ED2D73A69728604775 /* [CP] Embed Pods Frameworks */,
+				137FF3541369CA539BF4994D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "belajar-hokkian";
+			productName = "belajar-hokkian";
+			productReference = CC48D8731F0F74BD0031039D /* belajar-hokkian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC48D8861F0F74BD0031039D /* belajar-hokkianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48D89E1F0F74BD0031039D /* Build configuration list for PBXNativeTarget "belajar-hokkianTests" */;
+			buildPhases = (
+				4E68F0BD05EEBC9A499ADC47 /* [CP] Check Pods Manifest.lock */,
+				CC48D8831F0F74BD0031039D /* Sources */,
+				CC48D8841F0F74BD0031039D /* Frameworks */,
+				CC48D8851F0F74BD0031039D /* Resources */,
+				D2129807456DCC218BD6F9A4 /* [CP] Embed Pods Frameworks */,
+				7CD79D7C4B17ECDE681EA6D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC48D8891F0F74BD0031039D /* PBXTargetDependency */,
+			);
+			name = "belajar-hokkianTests";
+			productName = "belajar-hokkianTests";
+			productReference = CC48D8871F0F74BD0031039D /* belajar-hokkianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC48D8911F0F74BD0031039D /* belajar-hokkianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48D8A11F0F74BD0031039D /* Build configuration list for PBXNativeTarget "belajar-hokkianUITests" */;
+			buildPhases = (
+				16EBC8631727C057D906D278 /* [CP] Check Pods Manifest.lock */,
+				CC48D88E1F0F74BD0031039D /* Sources */,
+				CC48D88F1F0F74BD0031039D /* Frameworks */,
+				CC48D8901F0F74BD0031039D /* Resources */,
+				11E246F3FE0F571CC8A55028 /* [CP] Embed Pods Frameworks */,
+				FD1641ADBE1C46C03C8C5C69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC48D8941F0F74BD0031039D /* PBXTargetDependency */,
+			);
+			name = "belajar-hokkianUITests";
+			productName = "belajar-hokkianUITests";
+			productReference = CC48D8921F0F74BD0031039D /* belajar-hokkianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC48D86B1F0F74BD0031039D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andri Deng";
+				TargetAttributes = {
+					CC48D8721F0F74BD0031039D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F2WB46D6Y4;
+						ProvisioningStyle = Automatic;
+					};
+					CC48D8861F0F74BD0031039D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F2WB46D6Y4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC48D8721F0F74BD0031039D;
+					};
+					CC48D8911F0F74BD0031039D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F2WB46D6Y4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC48D8721F0F74BD0031039D;
+					};
+				};
+			};
+			buildConfigurationList = CC48D86E1F0F74BD0031039D /* Build configuration list for PBXProject "belajar-hokkian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC48D86A1F0F74BD0031039D;
+			productRefGroup = CC48D8741F0F74BD0031039D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC48D8721F0F74BD0031039D /* belajar-hokkian */,
+				CC48D8861F0F74BD0031039D /* belajar-hokkianTests */,
+				CC48D8911F0F74BD0031039D /* belajar-hokkianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC48D8711F0F74BD0031039D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48D8811F0F74BD0031039D /* LaunchScreen.storyboard in Resources */,
+				CC23C61D1F275B1C005050E7 /* Images.xcassets in Resources */,
+				CC48D8A51F0F74EA0031039D /* GoogleService-Info.plist in Resources */,
+				CC48D87E1F0F74BD0031039D /* Assets.xcassets in Resources */,
+				CC48D87C1F0F74BD0031039D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48D8851F0F74BD0031039D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48D8901F0F74BD0031039D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0030F70BB819E952CEE3D9D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		06A068ED2D73A69728604775 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar-hokkian/Pods-belajar-hokkian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11E246F3FE0F571CC8A55028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar-hokkianUITests/Pods-belajar-hokkianUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137FF3541369CA539BF4994D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar-hokkian/Pods-belajar-hokkian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16EBC8631727C057D906D278 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E68F0BD05EEBC9A499ADC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD79D7C4B17ECDE681EA6D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar-hokkianTests/Pods-belajar-hokkianTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2129807456DCC218BD6F9A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar-hokkianTests/Pods-belajar-hokkianTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1641ADBE1C46C03C8C5C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar-hokkianUITests/Pods-belajar-hokkianUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC48D86F1F0F74BD0031039D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCCFBC1F26F62200FEAD73 /* Kamus.swift in Sources */,
+				CC575D261F13B2540085C6EA /* DictView.swift in Sources */,
+				CC575D241F139BC10085C6EA /* NewItemController.swift in Sources */,
+				CC0C04641F0F8F6100910F19 /* MainController+handlers.swift in Sources */,
+				CC0C04671F0F901900910F19 /* LoginController.swift in Sources */,
+				CC48D8791F0F74BD0031039D /* MainController.swift in Sources */,
+				CC48D8771F0F74BD0031039D /* AppDelegate.swift in Sources */,
+				CC575D221F13793E0085C6EA /* Users.swift in Sources */,
+				CC0C046A1F0F91ED00910F19 /* LoginController+handlers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48D8831F0F74BD0031039D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48D88C1F0F74BD0031039D /* belajar_hokkianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48D88E1F0F74BD0031039D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48D8971F0F74BD0031039D /* belajar_hokkianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC48D8891F0F74BD0031039D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC48D8721F0F74BD0031039D /* belajar-hokkian */;
+			targetProxy = CC48D8881F0F74BD0031039D /* PBXContainerItemProxy */;
+		};
+		CC48D8941F0F74BD0031039D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC48D8721F0F74BD0031039D /* belajar-hokkian */;
+			targetProxy = CC48D8931F0F74BD0031039D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC48D87A1F0F74BD0031039D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC48D87B1F0F74BD0031039D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC48D87F1F0F74BD0031039D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC48D8801F0F74BD0031039D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC48D8991F0F74BD0031039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC48D89A1F0F74BD0031039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC48D89C1F0F74BD0031039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C738899A8203661ED84327 /* Pods-belajar-hokkian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2WB46D6Y4;
+				INFOPLIST_FILE = "belajar-hokkian/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belajar-hokkian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC48D89D1F0F74BD0031039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86026F5B0EBA6693C9299719 /* Pods-belajar-hokkian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2WB46D6Y4;
+				INFOPLIST_FILE = "belajar-hokkian/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belajar-hokkian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC48D89F1F0F74BD0031039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7602789AB3DDA2A366FE0A /* Pods-belajar-hokkianTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F2WB46D6Y4;
+				INFOPLIST_FILE = "belajar-hokkianTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belajar-hokkianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/belajar-hokkian.app/belajar-hokkian";
+			};
+			name = Debug;
+		};
+		CC48D8A01F0F74BD0031039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADA99BB37810E60F407299F /* Pods-belajar-hokkianTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F2WB46D6Y4;
+				INFOPLIST_FILE = "belajar-hokkianTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belajar-hokkianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/belajar-hokkian.app/belajar-hokkian";
+			};
+			name = Release;
+		};
+		CC48D8A21F0F74BD0031039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D12F79B9C0BE4E74638759C /* Pods-belajar-hokkianUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F2WB46D6Y4;
+				INFOPLIST_FILE = "belajar-hokkianUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belajar-hokkianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "belajar-hokkian";
+			};
+			name = Debug;
+		};
+		CC48D8A31F0F74BD0031039D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CDCC3BBF20856FEC09DD7D /* Pods-belajar-hokkianUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F2WB46D6Y4;
+				INFOPLIST_FILE = "belajar-hokkianUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belajar-hokkianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "belajar-hokkian";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC48D86E1F0F74BD0031039D /* Build configuration list for PBXProject "belajar-hokkian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48D8991F0F74BD0031039D /* Debug */,
+				CC48D89A1F0F74BD0031039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48D89B1F0F74BD0031039D /* Build configuration list for PBXNativeTarget "belajar-hokkian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48D89C1F0F74BD0031039D /* Debug */,
+				CC48D89D1F0F74BD0031039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48D89E1F0F74BD0031039D /* Build configuration list for PBXNativeTarget "belajar-hokkianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48D89F1F0F74BD0031039D /* Debug */,
+				CC48D8A01F0F74BD0031039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48D8A11F0F74BD0031039D /* Build configuration list for PBXNativeTarget "belajar-hokkianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48D8A21F0F74BD0031039D /* Debug */,
+				CC48D8A31F0F74BD0031039D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC48D86B1F0F74BD0031039D /* Project object */;
+}
